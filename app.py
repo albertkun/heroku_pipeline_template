@@ -10,7 +10,7 @@ app = Flask(__name__)
 # set the default route
 @app.route('/')
 def index():
-    return 'hello heroku pipeline template'
+    return 'hello heroku pipeline test-github-mdh'
 
 # set the script to run
 if __name__ == '__main__':
